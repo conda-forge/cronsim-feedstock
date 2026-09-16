@@ -3,7 +3,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   # 2.7 publishes no sdist on PyPI (wheel only), so the source is the GitHub tag
