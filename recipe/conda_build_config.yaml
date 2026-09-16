@@ -1,0 +1,5 @@
+# cronsim 2.7 raised its floor to Python >=3.10 (2.6 was >=3.8), which is above
+# conda-forge's global python_min. Without this the noarch package would be built
+# and advertised for interpreters upstream no longer supports.
+python_min:
+  - "3.10"
